@@ -6,7 +6,7 @@ A CTF that plays like a game , or  game that plays like a CTF.. you decide
 Sudo Showdown is a CTF style game written in python. 
 This game requires sudo to build each levels environment via docker.
 Each environmant is torn down and deleted at the end of each level before the new level is built.
-This game plays background music (mozart) while you play.
+This game plays background music while you play. Use your own mp3 FIle if you like, just name it background_music.mp3 and place it in the assets folder
 Each level contains a flag that must be submitted before progressing to the next level.
 
 There are 17 levels total:
