@@ -6,10 +6,10 @@ A CTF that plays like a game , or  game that plays like a CTF.. you decide
 Sudo Showdown is a CTF style game written in python. 
 This game requires sudo to build each levels environment via docker.
 Each environmant is torn down and deleted at the end of each level before the new level is built.
-This game plays background music while you play. Use your own mp3 FIle if you like, just name it background_music.mp3 and place it in the assets folder
+This game plays background music while you play. Use your own mp3 FIle if you like.. I suggest using a long one, just name it background_music.mp3 and place it in the assets folder
 Each level contains a flag that must be submitted before progressing to the next level.
 
-There are 17 levels total:
+There are 13 levels total:
 
 1) Sql injection
 2) Command injection
@@ -20,12 +20,8 @@ There are 17 levels total:
 7) RCE
 8) Path traversal
 9) CSRF
-10) Multi vulnerability
-11) Arp spoofing
-12) Steganography
-13) Password cracking
-14) Dns spoofing
-15) Reverse shell
-16) Social engineering
-17) ROP exploit
+10) Steganography
+11) Password cracking
+12) Reverse shell
+13) ROP exploit
 
